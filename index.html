@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next.js Migration Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Next.js Migration Tracker</h1>
+        <div class="header-stats">
+            <div class="stat-box">
+                <span class="stat-value" id="total-routes">0</span>
+                <span class="stat-label">Total Routes</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-value" id="completed-routes">0</span>
+                <span class="stat-label">Completed</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-value" id="pending-routes">0</span>
+                <span class="stat-label">Pending</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-value" id="progress-percentage">0%</span>
+                <span class="stat-label">Progress</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="filter-bar">
+        <input type="text" id="search-input" placeholder="Search...">
+        <div class="filter-selects">
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="corePagesRoutes">Core Pages</option>
+                <option value="capabilityRoutes">Capability Routes</option>
+                <option value="technologyRoutes">Technology Routes</option>
+                <option value="awsServicesRoutes">AWS Services</option>
+                <option value="awsSdpRoutes">AWS SDP Offerings</option>
+                <option value="productRoutes">Products</option>
+                <option value="caseStudyRoutes">Case Studies</option>
+                <option value="redirectsRoutes">Redirects</option>
+                <option value="specialHandlersRoutes">Special Handlers</option>
+            </select>
+            <select id="status-filter">
+                <option value="all">All Status</option>
+                <option value="Done">Done</option>
+                <option value="Pending">Pending</option>
+            </select>
+            <select id="team-filter">
+                <option value="all">All Team Members</option>
+                <!-- Team members will be populated from JS -->
+            </select>
+        </div>
+    </div>
+
+    <div class="team-progress">
+        <h2>Team Progress</h2>
+        <div class="team-grid" id="team-grid"></div>
+    </div>
+
+    <div class="notice">All pending tasks have a default delivery date of <strong>22/04/2025</strong>. Edit <code>data.js</code> to update.</div>
+
+    <div class="category-boxes" id="category-boxes"></div>
+
+    <footer>
+        <p>Next.js Migration Tracker | Last Updated: April 18, 2025</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
