@@ -99,28 +99,28 @@ const migrationData = {
     ],
     
     redirectsRoutes: [
-      { id: "R001", route: "/services/cloud-native", status: "Pending", notes: "Capability redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R002", route: "/services/xops", status: "Pending", notes: "Capability redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R003", route: "/services/salesforce", status: "Pending", notes: "Capability redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R004", route: "/services/technical-writing", status: "Pending", notes: "Capability redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R005", route: "/services/cognitive-ai", status: "Pending", notes: "Capability redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R006", route: "/services/generative-ai", status: "Pending", notes: "Capability redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R007", route: "/services/quality-engineering", status: "Pending", notes: "Capability redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R008", route: "/services/embedded-system", status: "Pending", notes: "Capability redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R009", route: "/services/business-Intelligence", status: "Pending", notes: "Capability redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R010", route: "/services/data-engineering", status: "Pending", notes: "Capability redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R011", route: "/services/mobility-services", status: "Pending", notes: "Capability redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R012", route: "/services/sap", status: "Pending", notes: "Capability redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R013", route: "/cloud-technology/aws", status: "Pending", notes: "Technology redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R014", route: "/cloud-technology/gcp", status: "Pending", notes: "Technology redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R015", route: "/cloud-technology/azure", status: "Pending", notes: "Technology redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R016", route: "/cloud-technology/databricks", status: "Pending", notes: "Technology redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R017", route: "/cloud-technology/snowflake", status: "Pending", notes: "Technology redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R018", route: "/cloud-technology/salesforce", status: "Pending", notes: "Technology redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R019", route: "/contact-us", status: "Pending", notes: "Core page redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R020", route: "/case-study/iguroo", status: "Pending", notes: "Case study redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R021", route: "/case-study/gentoo", status: "Pending", notes: "Case study redirect", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" },
-      { id: "R022", route: "/:path*.html", status: "Pending", notes: "HTML extension handler", assignedTo: "Team as they develop", deliveryDate: "22/04/2025" }
+      { id: "R001", route: "/services/cloud-native", status: "Pending", notes: "Capability redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R002", route: "/services/xops", status: "Pending", notes: "Capability redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R003", route: "/services/salesforce", status: "Pending", notes: "Capability redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R004", route: "/services/technical-writing", status: "Pending", notes: "Capability redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R005", route: "/services/cognitive-ai", status: "Pending", notes: "Capability redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R006", route: "/services/generative-ai", status: "Pending", notes: "Capability redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R007", route: "/services/quality-engineering", status: "Pending", notes: "Capability redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R008", route: "/services/embedded-system", status: "Pending", notes: "Capability redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R009", route: "/services/business-Intelligence", status: "Pending", notes: "Capability redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R010", route: "/services/data-engineering", status: "Pending", notes: "Capability redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R011", route: "/services/mobility-services", status: "Pending", notes: "Capability redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R012", route: "/services/sap", status: "Pending", notes: "Capability redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R013", route: "/cloud-technology/aws", status: "Pending", notes: "Technology redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R014", route: "/cloud-technology/gcp", status: "Pending", notes: "Technology redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R015", route: "/cloud-technology/azure", status: "Pending", notes: "Technology redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R016", route: "/cloud-technology/databricks", status: "Pending", notes: "Technology redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R017", route: "/cloud-technology/snowflake", status: "Pending", notes: "Technology redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R018", route: "/cloud-technology/salesforce", status: "Pending", notes: "Technology redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R019", route: "/contact-us", status: "Pending", notes: "Core page redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R020", route: "/case-study/iguroo", status: "Pending", notes: "Case study redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R021", route: "/case-study/gentoo", status: "Pending", notes: "Case study redirect", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "R022", route: "/:path*.html", status: "Pending", notes: "HTML extension handler", assignedTo: "Tarun", deliveryDate: "22/04/2025" }
     ],
     
     specialHandlersRoutes: [
@@ -133,7 +133,6 @@ const migrationData = {
       { name: "Leela", tasks: 20, completed: 20, pending: 0 },
       { name: "Murali", tasks: 18, completed: 8, pending: 10 },
       { name: "Kishan", tasks: 14, completed: 14, pending: 0 },
-      { name: "Tarun", tasks: 39, completed: 0, pending: 39 },
-      { name: "Team as they develop", tasks: 22, completed: 0, pending: 22 }
+      { name: "Tarun", tasks: 61, completed: 0, pending: 61 }
     ]
   };
