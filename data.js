@@ -11,18 +11,18 @@ const migrationData = {
     ],
     
     capabilityRoutes: [
-      { id: "CP001", route: "/capability/cloud-native", status: "Pending", notes: "Cloud Native page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
-      { id: "CP002", route: "/capability/xops", status: "Pending", notes: "XOps page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
-      { id: "CP003", route: "/capability/cognitive-ai", status: "Pending", notes: "Cognitive AI page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
-      { id: "CP004", route: "/capability/generative-ai", status: "Pending", notes: "Generative AI page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
-      { id: "CP005", route: "/capability/business-intelligence", status: "Pending", notes: "Business Intelligence page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
-      { id: "CP006", route: "/capability/data-engineering-analytics", status: "Pending", notes: "Data Engineering & Analytics page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
-      { id: "CP007", route: "/capability/salesforce", status: "Pending", notes: "Salesforce page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
-      { id: "CP008", route: "/capability/quality-engineering", status: "Pending", notes: "Quality Engineering page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
-      { id: "CP009", route: "/capability/mobility-services", status: "Pending", notes: "Mobility Services page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
-      { id: "CP010", route: "/capability/technical-writing", status: "Pending", notes: "Technical Writing page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
-      { id: "CP011", route: "/capability/embedded-system", status: "Pending", notes: "Embedded System page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
-      { id: "CP012", route: "/capability/sap", status: "Pending", notes: "SAP page", assignedTo: "Leela", deliveryDate: "22/04/2025" }
+      { id: "CP001", route: "/capability/cloud-native", status: "Done", notes: "Cloud Native page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
+      { id: "CP002", route: "/capability/xops", status: "Done", notes: "XOps page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
+      { id: "CP003", route: "/capability/cognitive-ai", status: "Done", notes: "Cognitive AI page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
+      { id: "CP004", route: "/capability/generative-ai", status: "Done", notes: "Generative AI page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
+      { id: "CP005", route: "/capability/business-intelligence", status: "Done", notes: "Business Intelligence page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
+      { id: "CP006", route: "/capability/data-engineering-analytics", status: "Done", notes: "Data Engineering & Analytics page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
+      { id: "CP007", route: "/capability/salesforce", status: "Done", notes: "Salesforce page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
+      { id: "CP008", route: "/capability/quality-engineering", status: "Done", notes: "Quality Engineering page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
+      { id: "CP009", route: "/capability/mobility-services", status: "Done", notes: "Mobility Services page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
+      { id: "CP010", route: "/capability/technical-writing", status: "Done", notes: "Technical Writing page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
+      { id: "CP011", route: "/capability/embedded-system", status: "Done", notes: "Embedded System page", assignedTo: "Leela", deliveryDate: "22/04/2025" },
+      { id: "CP012", route: "/capability/sap", status: "Done", notes: "SAP page", assignedTo: "Leela", deliveryDate: "22/04/2025" }
     ],
     
     technologyRoutes: [
@@ -48,12 +48,12 @@ const migrationData = {
     ],
     
     awsSdpRoutes: [
-      { id: "SDP001", route: "/aws/sdp/aws-glue", status: "Pending", notes: "AWS Glue page", assignedTo: "Kishan", deliveryDate: "22/04/2025" },
-      { id: "SDP002", route: "/aws/sdp/aws-opensearch", status: "Pending", notes: "AWS OpenSearch page", assignedTo: "Kishan", deliveryDate: "22/04/2025" },
-      { id: "SDP003", route: "/aws/sdp/aws-dynamodb", status: "Pending", notes: "AWS DynamoDB page", assignedTo: "Kishan", deliveryDate: "22/04/2025" },
-      { id: "SDP004", route: "/aws/sdp/aws-apigateway", status: "Pending", notes: "AWS API Gateway page", assignedTo: "Kishan", deliveryDate: "22/04/2025" },
-      { id: "SDP005", route: "/aws/sdp/aws-rds", status: "Pending", notes: "AWS RDS page", assignedTo: "Kishan", deliveryDate: "22/04/2025" },
-      { id: "SDP006", route: "/aws/sdp/aws-lambda", status: "Pending", notes: "AWS Lambda page", assignedTo: "Kishan", deliveryDate: "22/04/2025" }
+      { id: "SDP001", route: "/aws/sdp/aws-glue", status: "Done", notes: "AWS Glue page", assignedTo: "Kishan", deliveryDate: "22/04/2025" },
+      { id: "SDP002", route: "/aws/sdp/aws-opensearch", status: "Done", notes: "AWS OpenSearch page", assignedTo: "Kishan", deliveryDate: "22/04/2025" },
+      { id: "SDP003", route: "/aws/sdp/aws-dynamodb", status: "Done", notes: "AWS DynamoDB page", assignedTo: "Kishan", deliveryDate: "22/04/2025" },
+      { id: "SDP004", route: "/aws/sdp/aws-apigateway", status: "Done", notes: "AWS API Gateway page", assignedTo: "Kishan", deliveryDate: "22/04/2025" },
+      { id: "SDP005", route: "/aws/sdp/aws-rds", status: "Done", notes: "AWS RDS page", assignedTo: "Kishan", deliveryDate: "22/04/2025" },
+      { id: "SDP006", route: "/aws/sdp/aws-lambda", status: "Done", notes: "AWS Lambda page", assignedTo: "Kishan", deliveryDate: "22/04/2025" }
     ],
     
     productRoutes: [
@@ -130,7 +130,7 @@ const migrationData = {
     
     teamMembers: [
       { name: "Manjusha", tasks: 14, completed: 4, pending: 10 },
-      { name: "Leela", tasks: 20, completed: 8, pending: 12 },
+      { name: "Leela", tasks: 20, completed: 20, pending: 0 },
       { name: "Murali", tasks: 18, completed: 8, pending: 10 },
       { name: "Kishan", tasks: 14, completed: 14, pending: 0 },
       { name: "Tarun", tasks: 39, completed: 0, pending: 39 },
