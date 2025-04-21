@@ -124,8 +124,8 @@ const migrationData = {
     ],
     
     specialHandlersRoutes: [
-      { id: "H002", route: "Scroll to Top Behavior", status: "Pending", notes: "Reset scroll position on page navigation", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
-      { id: "H003", route: "Cookie Notice/Banner", status: "Pending", notes: "Implement cookie acceptance functionality", assignedTo: "Tarun", deliveryDate: "22/04/2025" }
+      { id: "H002", route: "Scroll to Top Behavior", status: "Done", notes: "Reset scroll position on page navigation", assignedTo: "Tarun", deliveryDate: "22/04/2025" },
+      { id: "H003", route: "Cookie Notice/Banner", status: "Done", notes: "Implement cookie acceptance functionality", assignedTo: "Tarun", deliveryDate: "22/04/2025" }
     ],
     
     teamMembers: [
